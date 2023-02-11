@@ -1,0 +1,24 @@
+.contestInfo {
+  display: flex;
+  flex-direction: column;
+  .title {
+    font-size: 32px;
+    font-weight: 400;
+    margin: 5px 0 8px;
+    color: #3091f2;
+  }
+  .description {
+    font-size: 18px;
+    margin-left: 30px;
+  }
+  .contestTime {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-left: 750px;
+  }
+  .creator {
+    font-size: 16px;
+    color: #3091f2;
+  }
+}
