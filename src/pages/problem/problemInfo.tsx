@@ -31,7 +31,7 @@ const ProblemInfo = () => {
   }, []); //查询条件改变将影响结果
   return (
     <>
-      <Card style={{ width: 1000 }}>
+      <Card style={{ width: 1100 }}>
         <div className="content">
           <p className="title">问题描述</p>
           <p>{description}</p>
@@ -47,7 +47,7 @@ const ProblemInfo = () => {
           </div>
         </div>
       </Card>
-      <Card style={{ width: 1000, marginTop: 20 }}>
+      <Card style={{ width: 1100, marginTop: 20 }}>
         <CodeEditor />
       </Card>
     </>
