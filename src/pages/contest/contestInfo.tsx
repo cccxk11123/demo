@@ -87,7 +87,7 @@ const ContestInfo = () => {
     <>
       {contest.start_time ? (
         <>
-          <Card style={{ width: 1000, marginTop: 20 }}>
+          <Card style={{ width: 1100, marginTop: 20 }}>
             <div className="contestInfo">
               <p className="title">{contest.title}</p>
               <p className="description">{contest.description}</p>
@@ -108,7 +108,7 @@ const ContestInfo = () => {
               </div>
             </div>
           </Card>
-          <Card bordered={true} style={{ width: 1000, marginTop: 15 }}>
+          <Card bordered={true} style={{ width: 1100, marginTop: 15 }}>
             <Table //渲染题目数据
               dataSource={data}
               rowKey="id"
