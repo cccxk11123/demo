@@ -1,0 +1,29 @@
+.sideImage {
+  img {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+  }
+}
+
+.header {
+  display: flex;
+  align-self: flex-end;
+  border-radius: 10px;
+  .headerRight {
+    display: flex;
+    gap: 0.3rem;
+    margin-top: 15px;
+    align-items: center;
+    margin: 10px;
+  }
+}
+
+.sendButton {
+  display: flex;
+  gap: 1rem;
+}
+
+.site-layout {
+  display: flex;
+}
